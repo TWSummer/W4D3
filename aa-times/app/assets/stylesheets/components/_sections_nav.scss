@@ -1,0 +1,22 @@
+.sections {
+  display: flex;
+  justify-content: center;
+}
+
+.sections li {
+  margin: 10px;
+}
+
+.sections li:hover {
+  background-color: $light-gray;
+  border-radius: 3px;
+}
+
+.sections li:last-of-type:hover {
+  text-decoration: underline;
+  background-color: white;
+}
+
+.sections-nav {
+  border-bottom: 1px solid $light-gray
+}

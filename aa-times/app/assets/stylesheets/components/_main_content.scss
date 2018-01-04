@@ -1,0 +1,143 @@
+.flex-body {
+  display: flex;
+}
+
+.left-side {
+  width: 28%;
+  padding: 8px;
+}
+
+.left-side a {
+  color: $blue;
+  font-size: 12px;
+}
+
+.left-side a:hover {
+  text-decoration: underline;
+}
+
+.middle-content {
+  width: 44%;
+  padding: 8px;
+}
+.middle-content iframe {
+  width: 100%;
+  height: 315px;
+}
+
+.right-side {
+  width: 28%;
+  padding: 8px;
+}
+
+.opinion {
+  display: flex;
+}
+
+.thumbnail {
+  height: 50px;
+  object-fit: cover;
+}
+
+.opinion-left {
+  width: 50%;
+  padding: 8px;
+}
+
+.opinion-right {
+  width: 50%;
+  padding: 8px;
+}
+
+h1 {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+h1:hover {
+  text-decoration: underline;
+  cursor: default;
+}
+
+h4 {
+  font-size: 14px;
+  color: $gray;
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+h3:hover {
+  text-decoration: underline;
+  cursor: default;
+}
+
+h2 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.middle-content h3, .middle-content h4 {
+  margin: 6px 0;
+}
+
+.lists {
+  list-style: initial;
+}
+
+.lists li strong {
+  font-weight: bold;
+}
+
+.left-side ul li {
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+p {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.signup-button input {
+  width: 60%;
+  height: 16px;
+  color: $gray;
+  padding: 8px;
+}
+
+.signup-button button {
+  width: auto;
+}
+
+.signup-button {
+  border-radius: 9px;
+  border: 1px solid $gray;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gray-text {
+  color: $gray;
+  font-size: 10px;
+  text-align: center;
+}
+
+.opinion-headers {
+  font-size: 11.5px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1000px) {
+  .flex-body {
+    display: block;
+  }
+
+  .left-side, .middle-content, .right-side {
+    width: 100%
+  }
+}
